@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+html {
+    font-size: 10px;
+    background: url('./images/rue-s-XivbqAPEoJg-unsplash.jpg') bottom center;
+    background-size: cover;
+  }
+  body,html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+    justify-items: center;
+  }
+  img{
+    height:auto;
+    max-width:70%;
+  }
+  .game{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+  
+  button{
+    box-shadow: -14px -2px 24px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: -14px -2px 24px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -14px -2px 24px 0px rgba(0,0,0,0.75);
+margin-right: 20px;
+cursor: pointer;
+  }
+  h1{
+    font-family: 'Silkscreen', cursive;
+    transition:all 0.02s ease-in;
+    color:rgb(254, 244, 244);
+    font-size: 3rem;
+    padding: 2rem 1rem;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    /* glassmorphism */
+    background: rgba( 102, 86, 86, 0.6 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 12.5px );
+-webkit-backdrop-filter: blur( 12.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+  }
+  .score{
+    font-family: 'Black Ops One', cursive;
+    font-size: 5rem;
+  }
+  
